@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1 );
+}
+
+.container .left-side {
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.profileText .imgBx img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.profileText h2 span {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.contactInfo{
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.lenguage .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.percent .percent-uno {
+    background-color: #03a9f4;
+    width: 45%;
+    height: 6px;
+}
+
+.percent .percent-dos {
+    background-color: #03a9f4;
+    width: 100%;
+    height: 6px;
+}
+
+
+/* =============================Right side================= */
+
+.container .right-side {
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box {
+    display: flex;
+    margin: 40px 0;
+}
+
+.about .box .year_company {
+    width: 270px;
+    margin-top: 6.5px;
+    color: #838c90;
+    text-transform: uppercase;
+}
+
+.box .year_company h5 {
+    font-weight: 500;
+}
+
+.box .text h4 {
+    color: #2a7da2;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+}
+
+
+.right-side .professional-skills h2 {
+    margin-bottom: 50px;
+    color: #081921;
+}
+
+.about .box-skills {
+    margin: 20px 0;
+    display: flex;
+}
+
+.box-skills .skill-name {
+    width: 200px;
+}
+
+.box-skills h3 {
+    text-transform: uppercase;
+    color: #838c90;
+    font-weight: 500;
+}
+
+.box-skills .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #081921;
+    margin-top: 9px;
+}
+
+.progress-bar .actual-progress1 {
+    background-color: #03a9f4;
+    width: 90%;
+    height: 10px;
+}
+
+.progress-bar .actual-progress2 {
+    background-color: #03a9f4;
+    width: 50%;
+    height: 10px;
+}
+
+.progress-bar .actual-progress3 {
+    background-color: #03a9f4;
+    width: 30%;
+    height: 10px;
+}
+
+.progress-bar .actual-progress4 {
+    background-color: #03a9f4;
+    width: 40%;
+    height: 10px;
+}
+
