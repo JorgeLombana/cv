@@ -16,15 +16,15 @@ body {
 }
 
 .container{
-    position: relative;
-    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1 );
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    margin: 50px;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1 );
+    position: relative;
+    width: 100%;
 }
 
 .container .left-side {
@@ -147,20 +147,26 @@ body {
 
 .percent .percent-dos {
     background-color: #03a9f4;
-    width: 100%;
     height: 6px;
+    width: 100%;
 }
 
 
 /* =============================Right side================= */
 
 .container .right-side {
-    position: relative;
     background-color: #fff;
     padding: 40px;
+    position: relative;
 }
 .about {
     margin-bottom: 50px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #003147;
+    
 }
 
 .about:last-child{
@@ -169,9 +175,9 @@ body {
 
 .title2 {
     color: #003147;
-    text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .about .box {
@@ -194,8 +200,8 @@ body {
     color: #2a7da2;
     font-size: 1.2em;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: -0.3px;
+    text-transform: uppercase;
 }
 
 
